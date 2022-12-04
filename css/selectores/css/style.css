@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+p {
+    color: red;
+}
+#segundo{
+    color: blue;
+}
+.tercero{
+    color: green;
+}
+p::after{
+    content: " (soy el after)";
+    color: brown;
+}
+p:last-child::after{
+    color: purple;
+}
+p::first-letter{
+    font-size: 30px;
+}
+.texto {
+    background-color: #87b0bc;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid #e3c381;
+    outline: 20px solid #ad8052;
+    width: calc(100% - 40px);
+}
+.texto__p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto__p:hover{
+    cursor: pointer;
+}
+.texto__p_texto-separado{
+    letter-spacing: 5px;
+}
+.texto__p_fondo_oscuro{
+    background-color: #111;
+}
+.texto__p:nth-child(2):hover{
+    background-color: red;
+}
+.texto__p:nth-child(4):active{
+    color: blue;
+}

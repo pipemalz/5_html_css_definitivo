@@ -1,0 +1,30 @@
+/* Hermano cercano (Adjacent sibling) */
+
+/* h2 + p {
+    color: red;
+} */
+
+
+
+/* Hermano general (General sibling) */
+
+/* h2 ~ p {
+    color: red;
+} */
+
+
+/* Hijo directo (Child)*/
+
+div > p {
+    color: red;
+}
+
+
+/* Descendiente */
+
+article p {
+    color: blue;
+}
+:not([href="asd"]){
+    color: green;
+}

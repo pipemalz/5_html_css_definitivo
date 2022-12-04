@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+form span{
+    font-size: 1.8rem;
+}
+section img{
+    width: 250px;
+}
